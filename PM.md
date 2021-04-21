@@ -1,8 +1,9 @@
 
-#第一章：引论
->PMP:Project Management Professional 项目管理专业
->PMBok:  Bok: Body of Knowledge 知识体系
->PMI:Project Management Institute  项目管理协会
+# 第一章：引论
+> PMP:Project Management Professional 项目管理专业
+> PMBok:  Bok: Body of Knowledge 知识体系
+
+> PMI:Project Management Institute  项目管理协会
 
 ***
 
@@ -230,9 +231,15 @@
 4.访谈：不强调同职能
 5.会议管理
 	5.1会前明确议程
-	
-	
+	5.2会中切题，处理会议冲突
+	5.3会后会议纪要
+	5.4不同的会议不在一起开
+	5.5面对面会议效果最好
 
+###输出
+项目章程
+
+	
 
 
 
@@ -251,6 +258,60 @@ PM重要流程
 
 项目收尾
 获得验收->移交->总结经验教训->更新组织过程资产->归档->释放资源
+
+
+###TODO
+
+
+
+
+
+#第五章 项目成本管理
+>挣值分析
+	>BAC[Budget cost at completion]:成本基准/完工总预算
+	>PV[Plan Value]:计划值,已完成工作量的预算值
+	>AC[Actual Cost]:实际成本，已完成工作量的实际成本
+	>EV[Earned Value]:挣值，已完成工作量的预算成本
+
+>偏差分析
+	>SV[Schedule Variance]:进度偏差
+	>CV[Cost Variance]:成本偏差
+	>SPI[Schedule Performed Index]
+	>CPI[Cost Performed Index]
+	
+>预测
+	>ETC[Estimate (or Estimated) To Complete]:完工尚需估算[剩余工作预期成本]
+	>EAC[Estimate at completion]：完工预算[总成本]
+
+##公式
+SV=EV-PV
+SV>0 进度提前
+SV=0 进度正常
+SC<0 进度落后
+
+CV=EV-AC
+CV>0 成本节约
+CV=0 成本符合预算
+CV<0 成本超支
+
+SPI=EV/PV
+SPI>1 进度提前
+SPI=1 进度正常
+SPI<1 进度落后
+
+CPI=EV/AC
+CPI>1 成本节约
+CPI=1 成本符合预算
+CPI<1 成本超支
+
+
+EAC=AC+ETC
+EAC四种计算公式
+
+
+
+
+###TODO
 
 
 概念区分

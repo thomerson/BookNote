@@ -1,6 +1,21 @@
-# TODO
-* 看板和敏捷
-* 蒙特卡罗
+# PMP
+* 五大过程组
+	* 启动
+	* 规划
+	* 执行
+	* 监督
+	* 收尾
+* 十大知识领域
+	* [整合](https://github.com/thomerson/BookNote/blob/master/PM.md#第四章-项目整合管理)
+	* [范围](https://github.com/thomerson/BookNote/blob/master/PM.md#第五章-项目范围管理)
+	* [进度](https://github.com/thomerson/BookNote/blob/master/PM.md#第六章-项目进度管理)
+	* [成本](https://github.com/thomerson/BookNote/blob/master/PM.md#第七章-项目成本管理)
+	* [质量](https://github.com/thomerson/BookNote/blob/master/PM.md#第八章-项目质量管理)
+	* [资源](https://github.com/thomerson/BookNote/blob/master/PM.md#第九章-项目资源管理)
+	* [沟通](https://github.com/thomerson/BookNote/blob/master/PM.md#第十章-项目沟通管理)
+	* [风险](https://github.com/thomerson/BookNote/blob/master/PM.md#第十一章-项目风险管理)
+	* [采购](https://github.com/thomerson/BookNote/blob/master/PM.md#第十二章-项目采购管理)
+	* [相关方](https://github.com/thomerson/BookNote/blob/master/PM.md#第十三章-项目相关方管理)
 
 
 # 第一章：引论
@@ -1586,6 +1601,11 @@
 	* 利益
 	* 影响
 	* 作用
+	* 应对方式
+		* 权高利低：让他爽
+		* 权高利高：重管理
+		* 权低利高：常告知
+		* 权低利低：仅监督
 ![权力利益方格](https://github.com/thomerson/BookNote/blob/master/source/images/权力利益方格.PNG)
 * 凸显模型
 	* 权力、紧迫性和合法性
@@ -1724,3 +1744,8 @@ PM重要流程
 
 
 ## 协议
+
+
+# TODO
+* 看板和敏捷
+* 蒙特卡罗

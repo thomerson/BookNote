@@ -7,16 +7,64 @@
 	* 收尾
 * 十大知识领域
 	* [整合](https://github.com/thomerson/BookNote/blob/master/PM.md#第四章-项目整合管理)
+		* [制定项目章程](https://github.com/thomerson/BookNote/blob/master/PM.md#制定项目章程)
+		* [制定项目管理计划](https://github.com/thomerson/BookNote/blob/master/PM.md#制定项目管理计划)
+		* [指导与管理项目工作](https://github.com/thomerson/BookNote/blob/master/PM.md#指导与管理项目工作)
+		* [管理项目知识](https://github.com/thomerson/BookNote/blob/master/PM.md#管理项目知识程)
+		* [监控项目工作](https://github.com/thomerson/BookNote/blob/master/PM.md#监控项目工作)
+		* [实施整体变更控制](https://github.com/thomerson/BookNote/blob/master/PM.md#实施整体变更控制)
+		* [结束项目或阶段](https://github.com/thomerson/BookNote/blob/master/PM.md#结束项目或阶段)
 	* [范围](https://github.com/thomerson/BookNote/blob/master/PM.md#第五章-项目范围管理)
+		* [规划范围管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划范围管理)
+		* [收集需求](https://github.com/thomerson/BookNote/blob/master/PM.md#收集需求)
+		* [定义范围](https://github.com/thomerson/BookNote/blob/master/PM.md#定义范围)
+		* [创建WBS](https://github.com/thomerson/BookNote/blob/master/PM.md#创建WBS)
+		* [确认范围](https://github.com/thomerson/BookNote/blob/master/PM.md#确认范围)
+		* [控制范围](https://github.com/thomerson/BookNote/blob/master/PM.md#控制范围)
 	* [进度](https://github.com/thomerson/BookNote/blob/master/PM.md#第六章-项目进度管理)
+		* [规划进度管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划进度管理)
+		* [定义活动](https://github.com/thomerson/BookNote/blob/master/PM.md#定义活动)
+		* [排列活动顺序](https://github.com/thomerson/BookNote/blob/master/PM.md#排列活动顺序)
+		* [估算活动持续时间](https://github.com/thomerson/BookNote/blob/master/PM.md#估算活动持续时间)
+		* [制定进度计划](https://github.com/thomerson/BookNote/blob/master/PM.md#制定进度计划)
+		* [控制进度](https://github.com/thomerson/BookNote/blob/master/PM.md#控制进度)		
 	* [成本](https://github.com/thomerson/BookNote/blob/master/PM.md#第七章-项目成本管理)
+		* [规划成本管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划成本管理)
+		* [估算成本](https://github.com/thomerson/BookNote/blob/master/PM.md#估算成本)
+		* [制定预算](https://github.com/thomerson/BookNote/blob/master/PM.md#制定预算)
+		* [控制成本](https://github.com/thomerson/BookNote/blob/master/PM.md#控制成本)
 	* [质量](https://github.com/thomerson/BookNote/blob/master/PM.md#第八章-项目质量管理)
+		* [规划质量管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划质量管理)
+		* [管理质量](https://github.com/thomerson/BookNote/blob/master/PM.md#管理质量)
+		* [控制质量](https://github.com/thomerson/BookNote/blob/master/PM.md#控制质量)		
 	* [资源](https://github.com/thomerson/BookNote/blob/master/PM.md#第九章-项目资源管理)
+		* [规划资源管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划资源管理)
+		* [估算活动资源](https://github.com/thomerson/BookNote/blob/master/PM.md#估算活动资源)
+		* [获取资源](https://github.com/thomerson/BookNote/blob/master/PM.md#获取资源)
+		* [建设团队](https://github.com/thomerson/BookNote/blob/master/PM.md#建设团队)
+		* [管理团队](https://github.com/thomerson/BookNote/blob/master/PM.md#管理团队)
+		* [控制资源](https://github.com/thomerson/BookNote/blob/master/PM.md#控制资源)
 	* [沟通](https://github.com/thomerson/BookNote/blob/master/PM.md#第十章-项目沟通管理)
+		* [规划沟通管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划沟通管理)
+		* [管理沟通](https://github.com/thomerson/BookNote/blob/master/PM.md#管理沟通)
+		* [监督沟通](https://github.com/thomerson/BookNote/blob/master/PM.md#监督沟通)
 	* [风险](https://github.com/thomerson/BookNote/blob/master/PM.md#第十一章-项目风险管理)
+		* [规划风险管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划风险管理)
+		* [识别风险](https://github.com/thomerson/BookNote/blob/master/PM.md#识别风险)
+		* [实施定性风险分析](https://github.com/thomerson/BookNote/blob/master/PM.md#实施定性风险分析)
+		* [实施定量风险分析](https://github.com/thomerson/BookNote/blob/master/PM.md#实施定量风险分析)
+		* [规划风险应对](https://github.com/thomerson/BookNote/blob/master/PM.md#规划风险应对)
+		* [实施风险应对](https://github.com/thomerson/BookNote/blob/master/PM.md#实施风险应对)	
+		* [监督风险](https://github.com/thomerson/BookNote/blob/master/PM.md#监督风险)
 	* [采购](https://github.com/thomerson/BookNote/blob/master/PM.md#第十二章-项目采购管理)
+		* [规划采购管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划采购管理)
+		* [实施采购](https://github.com/thomerson/BookNote/blob/master/PM.md#实施采购)
+		* [控制采购](https://github.com/thomerson/BookNote/blob/master/PM.md#控制采购)
 	* [相关方](https://github.com/thomerson/BookNote/blob/master/PM.md#第十三章-项目相关方管理)
-
+		* [识别相关方](https://github.com/thomerson/BookNote/blob/master/PM.md#识别相关方)
+		* [规划相关方管理](https://github.com/thomerson/BookNote/blob/master/PM.md#规划相关方管理)
+		* [管理相关方参与](https://github.com/thomerson/BookNote/blob/master/PM.md#管理相关方参与)
+		* [监督相关方参与](https://github.com/thomerson/BookNote/blob/master/PM.md#监督相关方参与)
 
 # 第一章：引论
 * PMP:Project Management Professional 项目管理专业
@@ -1487,14 +1535,16 @@
 		* 利润的最高限价和最低现价
 	* 成本加奖励费用(CPAF)
 		* 主观判断来决定奖励费用，通常不允许申诉
-* 工料合同(T&M,时间和手段合同)
+> 利润 = 目标利润 + (目标成本 - 实际成本) * 卖方承担比例
+
+> 实际总价 = 最终利润 + 实际成本
+
+* 工料合同(T&M,时间和手段合同)：适用于短期
 	* 规定了单位人力或材料费用
 	* 规定最高价值和时间限制，以防止成本无限增加
 * 成本加百分比合同(CPPC),已禁止使用
 
-> 利润 = 目标利润 + (目标成本 - 实际成本) * 卖方承担比例
 
-> 实际总价 = 最终利润 + 实际成本
 
 
 
@@ -1522,9 +1572,12 @@
 
 * 招标文件
 	* 应答格式要求
-	* 采购工作说明书
+	* 采购工作说明书SOW(Statement of work)
+		* 履约期限
+		* 性能参数
+		* 工作地点
 	* 合同条款
-* 供方选择标准
+* 供方选择标准：公开的，在招标文件中
 * 自制或外购决策
 * 独立成本估算
 
@@ -1534,14 +1587,14 @@
 ### 输入
 * 采购文档
 	* 招标文件
-	* 采购工作说明书
+	* 采购工作说明书(SOW)
 	* 独立成本估算
 	* 供方选择标准
 * 卖方建议书
 
 ### 工具和技术(招->投->评->授)
 * 广告
-* 投标人会议
+* 投标人会议：保证公平性
 * 数据分析技术
 	* 建议书评估：加权筛选
 * 采购谈判：由有合同签署权限的人主导，PM参加并提供必要协助
@@ -1558,6 +1611,7 @@
 
 ***
 ## 控制采购
+
 ### 输入
 * 协议
 * 批准的变更请求
@@ -1749,3 +1803,7 @@ PM重要流程
 # TODO
 * 看板和敏捷
 * 蒙特卡罗
+
+
+# 答题技巧
+### 选项中有更新风险登记册/问题日志/相关方登记册 优先选择

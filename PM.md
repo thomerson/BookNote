@@ -1,12 +1,12 @@
 # 目录
 
-## 五大过程组
+* 五大过程组
 	* 启动
 	* 规划
 	* 执行
 	* 监督
 	* 收尾
-## 十大知识领域
+* 十大知识领域
 	* [整合](https://github.com/thomerson/BookNote/blob/master/PM.md#第四章-项目整合管理)
 		* [制定项目章程](https://github.com/thomerson/BookNote/blob/master/PM.md#制定项目章程)
 		* [制定项目管理计划](https://github.com/thomerson/BookNote/blob/master/PM.md#制定项目管理计划)
@@ -274,7 +274,7 @@
 > 适应型环境：营造合作型决策氛围
 
 ## 制定项目章程
-<p align="right">![目录](https://github.com/thomerson/BookNote/blob/master/PM.md#十大知识领域)</p>
+<p align="right">![目录](https://github.com/thomerson/BookNote/blob/master/PM.md#目录)</p>
 * 授权项目经理
 * 明确项目和组织战略目标之间的直接关系[确认项目符合组织战略和日常运营的需要]
 * 在执行组织（团队）与需求组织（客户）建立联系

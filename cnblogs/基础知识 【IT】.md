@@ -2,7 +2,7 @@
 平时遇到的基础问题的QA和总结，不定期更新
 
 ## 目录
-<!-- TODO -->
+TODO
 
 ## 计算机单位
 
@@ -29,5 +29,18 @@ ERP: Enterprise Resource Planning/企业资源计划
 CRM: Customer Relationship Management/客户关系管理      
 SCM: Supply Chain Management/供应链管理     
 SAP: System Applications and Products/是SAP【思爱普】公司的产品——企业管理解决方案的软件名称 是全世界排名第一的ERP软件
+
+
+### DFD ERD DD SSD
+DFD：data flow diagram/数据流图
+ERD: Entity relation diagram/实体关系图
+DD: data dictionary/数据字典
+SSD: system struct diagram/系统结构图
+
+
+### MAC IP domain
+MAC: media access control/媒体访问控制地址/**物理地址**
+IP: Internet protocal address/互联网协议地址/是一种**逻辑地址**
+domain： 域名
 
 

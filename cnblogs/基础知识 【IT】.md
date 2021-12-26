@@ -22,11 +22,12 @@ byte:**字节**， 一个Byte由8 bits 所组成，可代表一个字元(A\~Z)�
 bps :bits per second 一般数据机及网络通讯的传输速率都是以「bps」为单位。如56Kbps、100.0Mbps 等等
 Bps :Byte per second 电脑一般都以Bps 显示速度，如1Mbps 大约等同 128 KBps
 
-## 系统
+## 信息系统
 
 ### ERP CRM SAP
-ERP: Enterprise Resource Planning/企业资源计划
-CRM: Customer Relationship Management/客户关系管理
-SCM: Supply Chain Management/供应链管理
+ERP: Enterprise Resource Planning/企业资源计划      
+CRM: Customer Relationship Management/客户关系管理      
+SCM: Supply Chain Management/供应链管理     
 SAP: System Applications and Products/是SAP【思爱普】公司的产品——企业管理解决方案的软件名称 是全世界排名第一的ERP软件
+
 

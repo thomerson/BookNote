@@ -45,4 +45,16 @@ TODO
     * IPv6,长度位**64**位
 * domain： 域名，IP地址不方便记忆，通过**域名系统**/**DNS**/**Domain Name System**/将域名和IP地址相互映射
 
+### SaaS Paas IaaS
+* SaaS/soft as a service
+    > 软件即服务：软件的开发管理部署都交给服务商，不需要关心技术问题，拿来即用，例如email,erp系统
+* PaaS/Platform as a service
+    > 平台即服务：提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展.开发者只需要关注自己的业务逻辑，不需要关注底层
+    * APaaS/application platform as a service：Tomcat，NodeJs，windows 等
+    * IPaaS/integration as a service：数据库（MySQL,redis,mongoDB）,消息队列，Memcache等
+* IaaS/Infrastructure as a service
+    > 基础设施服务：云服务的最底层，主要提供一些基础资源，可以根据需要定制cpu，内存，系统等。例如阿里云
+
+> 参考:[IaaS，PaaS，SaaS 的区别](https://ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
+
 

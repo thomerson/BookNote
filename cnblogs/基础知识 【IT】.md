@@ -55,6 +55,10 @@ TODO
 * IaaS/Infrastructure as a service
     > 基础设施服务：云服务的最底层，主要提供一些基础资源，可以根据需要定制cpu，内存，系统等。例如阿里云
 
-> 参考:[IaaS，PaaS，SaaS 的区别](https://ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
+
+参考:[IaaS，PaaS，SaaS 的区别](https://ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
 
 
+### 系统指标
+稳定性
+可靠性

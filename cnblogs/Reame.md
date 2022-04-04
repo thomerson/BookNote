@@ -1,3 +1,7 @@
+## 基础知识
+
+* [基础知识 【IT】 ](https://www.cnblogs.com/thomerson/p/15731120.html)
+
 ## Dotnet
 
 ### 基础回顾
@@ -40,6 +44,4 @@
 * [SQL Server 【应用】行列转换Pivot&Unpivot](https://www.cnblogs.com/thomerson/p/14491162.html)
 
 
-## 基础知识
 
-* [基础知识 【IT】 ](https://www.cnblogs.com/thomerson/p/15731120.html)

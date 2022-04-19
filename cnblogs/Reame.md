@@ -29,6 +29,7 @@
 
 #### DevExpress
 * [.Net 【DevExpress】 GridControl总结](https://www.cnblogs.com/thomerson/p/13566193.html)
+* [.Net 【DevExpress】 MemoEdit总结](https://www.cnblogs.com/thomerson/p/16164224.html)
 
 ## SQL Server
 

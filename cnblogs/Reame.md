@@ -27,6 +27,8 @@
 * [.Net 【Winform】 Invoke and BeginInvoke](https://www.cnblogs.com/thomerson/p/12585199.html)
 
 
+#### DevExpress
+* [.Net 【DevExpress】 GridControl总结](https://www.cnblogs.com/thomerson/p/13566193.html)
 
 ## SQL Server
 

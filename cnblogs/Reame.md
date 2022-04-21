@@ -16,6 +16,7 @@
 
 * [.Net 【工作应用】 Newtonsoft.Json用法](https://www.cnblogs.com/thomerson/p/13561548.html)
 
+* [.Net 【工作应用】 Ado.net总结](https://www.cnblogs.com/thomerson/p/16174616.html)
 
 ### 提高
 * [.Net 【提高】 协变和逆变](https://www.cnblogs.com/thomerson/p/15073209.html)

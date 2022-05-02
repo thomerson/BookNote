@@ -181,3 +181,6 @@ change mode 修改用户权限
 
 * 列出所有已安装的包的版本信息：apt list --all-versions
 
+
+
+## [Linux命令大全](https://www.runoob.com/linux/linux-command-manual.html)

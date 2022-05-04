@@ -11,6 +11,7 @@
 * [.Net 【基础回顾】比较比较 Equals ReferenceEquals](https://www.cnblogs.com/thomerson/p/11494450.html)
 * [.Net 【基础回顾】关键字补充default](https://www.cnblogs.com/thomerson/p/16205599.html)
 * [.Net 【基础回顾】关键字补充yield](https://www.cnblogs.com/thomerson/p/16218591.html)
+* [.Net 【基础回顾】String脚踏两条船](https://www.cnblogs.com/thomerson/p/11494461.html)
 
 ### 工作应用
 * [.Net 【工作应用】 Nuget Server](https://www.cnblogs.com/thomerson/p/12491751.html)

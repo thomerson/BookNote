@@ -1,44 +1,7 @@
 
 ## Ocelot集成Cache
 
-1. 安装Package
-
-```
-install-package Ocelot.Cache.CacheManager
-
-```
-
-2. 使用CacheManager
-
-```c#
-var builder = new WebHostBuilder();
-
-builder.ConfigureAppConfiguration((hostingContext, config) =>
-{
-    config
-    .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-    .AddJsonFile("appsettings.json", true, true)
-    .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true) //reloadOnChange:更改时重新加载 JSON 配置
-    .AddJsonFile("ocelot.json")
-    .AddEnvironmentVariables();//多种环境
-});
-
-
-builder.ConfigureServices(s =>
-{
-    s.AddOcelot()
-    // .AddPolly()
-    .AddCacheManager(x =>
-    {
-        x.WithDictionaryHandle();
-    });
-})
-```
-
-
-3. 配置
-
-在需要cache的route上加上配置```FileCacheOptions```
+在需要cache的route上直接加上配置```FileCacheOptions```就可以实现cache
 
 ```json
 {

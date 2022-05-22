@@ -62,6 +62,8 @@ builder.ConfigureServices(s =>
 
 3. 配置
 
-配置后看到
+同Ocelot自带的配置
+
+
 
 

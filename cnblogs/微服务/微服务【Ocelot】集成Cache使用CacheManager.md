@@ -51,20 +51,3 @@ builder.ConfigureServices(s =>
 
 这个和使用自带的Cache配置一样
 
-## 测试
-
-同样在下游接口添加线程睡眠模拟慢请求，第一次请求时需要10s，第二次请求时瞬间就能获取到结果
-
-```c#
-[Route("api/[controller]")]
-[ApiController]
-public class ProductsController : ControllerBase
-{
-    [HttpGet]
-    public JsonResult Get()
-    {
-        Thread.Sleep(10000);
-        return new JsonResult(new List<string>() { "Fish", "Milk" });
-    }
-}
-```

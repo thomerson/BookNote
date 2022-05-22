@@ -1,19 +1,14 @@
 
-## QoS
-
-Quality of Service/服务质量
-
-
-## Ocelot集成Qos
+## Ocelot集成Cache
 
 1. 安装Package
 
 ```
-install-package Ocelot.Provider.Polly
+install-package Ocelot.Cache.CacheManager
 
 ```
 
-2. AddPolly
+2. 使用CacheManager
 
 ```c#
 var builder = new WebHostBuilder();
@@ -32,30 +27,48 @@ builder.ConfigureAppConfiguration((hostingContext, config) =>
 builder.ConfigureServices(s =>
 {
     s.AddOcelot()
-    .AddPolly();
+    // .AddPolly()
+    .AddCacheManager(x =>
+    {
+        x.WithDictionaryHandle();
+    });
 })
 ```
 
 
 3. 配置
 
-QoSOptions可以在GlobalConfiguration中配置，也可以在单个route中配置
+在需要cache的route上加上配置```FileCacheOptions```
 
 ```json
 {
-  "GlobalConfiguration": {
-    "QoSOptions": {
-      "ExceptionsAllowedBeforeBreaking": 3, //发生几次请求异常（比如超时）后进行熔断，该值必须大于0
-      "DurationOfBreak": 60, //熔断时间（单位：毫秒），多长时间不能访问
-      "TimeoutValue": 5000 //下游请求超时时间（单位：毫秒，默认90秒）
+  "DownstreamPathTemplate": "/api/products",
+  "DownstreamScheme": "http",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "localhost",
+      "Port": 5026
     }
+  ],
+  "UpstreamPathTemplate": "/products",
+  "UpstreamHttpMethod": [ "Get" ],
+  "Key": "Jerry",
+  "FileCacheOptions": {
+    "TtlSeconds": 15,
+    "Region": "myRegion"
   }
 }
 ```
 
+* TtlSeconds
+  配置有效期的时间，单位为秒
+
+* Region
+  区域名，即分区缓存数据；Oeclot可以提供缓存管理接口，然后指定区域清除缓存
+
 ## 测试
 
-在下游接口添加线程睡眠模拟慢请求，TimeoutValue设置为5000ms,在通过Ocelot访问Product接口会返回```HTTP ERROR 503```
+在下游接口添加线程睡眠模拟慢请求，第一次请求时需要10s，第二次请求时瞬间就能获取到结果
 
 ```c#
 [Route("api/[controller]")]

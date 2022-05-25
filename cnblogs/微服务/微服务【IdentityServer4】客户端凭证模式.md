@@ -220,6 +220,10 @@ else
 
 ```
 
+4. Fiddle拦截请求
+
+可以看到request header中带上了```Authorization```
+
 ## [源码](https://github.com/thomerson/Demo/tree/main/DotnetCore/Demo.IDS4)
 
 ## 参考

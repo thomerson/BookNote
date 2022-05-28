@@ -59,6 +59,8 @@ https://segmentfault.com/a/1190000023938486
 
 是IdentityServer4中控制API访问的基本模式，我们通常通过定义一个API和访问客户端，客户端通过客户端ID请求Identity Server以获取访问的token
 
+* 用户密码模式
+
 
 
 ## 参考

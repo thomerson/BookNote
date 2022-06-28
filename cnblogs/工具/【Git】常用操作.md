@@ -18,9 +18,9 @@ git reset --soft head^  --上一个版本
 git reset --soft head~1  --后面的数字表示撤销最近的几次提交
 ```
 
---soft 不删除工作空间改动代码，撤销commit，**不撤销git add**
-、
---mixed 不删除工作空间改动代码，撤销commit，**并且撤销git add**
+```--soft``` 不删除工作空间改动代码，撤销commit，**不撤销git add**
 
---hard **删除工作空间改动代码**，撤销commit，撤销git add
+```--mixed``` 不删除工作空间改动代码，撤销commit，**并且撤销git add**
+
+```--hard``` **删除工作空间改动代码**，撤销commit，撤销git add
 

@@ -60,6 +60,11 @@
 
 ## 其他相关
 
+### 工具
+
+* [【Git】常用操作](https://www.cnblogs.com/thomerson/p/16421058.html)
+
 ### 数学
 
 * [【数学】充分必要条件](https://www.cnblogs.com/thomerson/p/16188604.html)
+

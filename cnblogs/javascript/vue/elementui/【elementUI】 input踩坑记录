@@ -39,5 +39,5 @@ Vue.directive('numberOnly', {
 
 **注意**
 
-这个样式放在```<style scoped>```scoped中无效，需要直接放在```<style>中
+这个样式放在```<style scoped>```scoped中无效，需要直接放在```<style>```中
 

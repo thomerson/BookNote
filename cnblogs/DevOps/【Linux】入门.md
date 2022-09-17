@@ -1,6 +1,18 @@
 ## 关键概念
 * 开放源码的类 UNIX 操作系统
-* Linux: Linux is not Unix
+* Linux英文解释： Linux is not Unix
+
+## redhat debian
+
+* redhat 
+    * CentOS
+主要用于服务器版本，没有UI
+
+* debian
+    * Ubuntu
+
+视窗界面良好，民用
+
 
 ## CentOS
 
@@ -184,3 +196,52 @@ change mode 修改用户权限
 
 
 ## [Linux命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+
+### 命令说明
+
+* sudo 
+
+系统管理指令，是允许系统管理员让普通用户执行一些或者全部的root命令的一个工具
+
+
+
+* ls 
+
+list files，显示指定工作目录下之内容
+
+* cd
+
+Change Directory,切换目录
+
+```cd ..``` 返回到上一层目录
+
+* rmdir
+
+remove Directory,删除空的目录
+
+* rm
+
+remove,移除文件或目录
+
+* mkdir
+
+make directory，创建新的目录
+
+* pwd
+
+Print Working Directory，显示目前所在目录的命令
+
+* cp
+
+copy,复制文件或目录
+
+* mv 
+
+move,移动文件与目录，或修改名称
+
+
+
+
+
+
+

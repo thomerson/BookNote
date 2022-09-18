@@ -123,15 +123,34 @@ change mode 修改用户权限
 * mount 挂载
 * umount 卸除
 
-## vi/vim
+## [vi/vim](https://www.runoob.com/linux/linux-vim.html)
+
+### 三种模式
+
+* 命令模式（Command mode）
+启动 vi/vim，便进入了命令模式
+
+此状态下敲击键盘动作会被Vim识别为命令，而非输入字符
+
+
+* 输入模式（Insert mode）
+* 底线命令模式（Last line mode）
+
+
 
 文本编辑器
 
 ### 三种模式
 
 * 命令模式（Command mode）
+    * i 进入输入模式
+    * : 进入底线命令模式
 * 输入模式（Insert mode）
+    * esc 推出输入模式
 * 底线命令模式（Last line mode）
+    * w 保存
+    * q 退出
+
 
 
 ## yum 命令

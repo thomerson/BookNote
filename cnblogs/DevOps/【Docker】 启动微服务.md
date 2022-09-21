@@ -52,3 +52,14 @@ services:
 ```shell
 docker-compose up -d
 ``` 
+
+
+## 一次性生成多个镜像
+
+CI/CD
+
+1. 自动发布文件
+
+2. 自动生成镜像
+
+

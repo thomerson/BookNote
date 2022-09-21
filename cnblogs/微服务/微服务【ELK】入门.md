@@ -1,0 +1,34 @@
+## ELK
+
+日志中心：收集日志
+
+* ElasticSearch
+
+存储日志
+
+* Logstash
+
+收集日志
+
+默认同步收集，性能较差，所以使用rabbitMQ改成异步收集日志
+
+* Kibana
+
+展示日志
+
+
+各个系统->rabbitMQ->Logstash->ElasticSearch->Kibana
+
+
+
+## 记录日志步骤
+
+1. 发送日志到rabbitMQ
+
+2. rabbitMQ发送日志到Logstash
+
+3. Logstash发送日志到ES
+
+4. Kibana展示ES
+
+

@@ -1,0 +1,22 @@
+## 安装启动
+
+1. 安装JAVA环境
+
+```ElasticSearch```是基于```lucence```开发的，也就是运行需要java jdk支持。
+
+记得配置Java环境变量
+
+
+2. 下载```elasticsearch```最新版本解压后直接在bin路径下cmd执行```elasticsearch.bat```
+
+错误提醒```exception during geoip databases update```
+
+* 原因
+此版本将GeoIp功能默认开启了采集。在默认的启动下是会去官网的默认地址下获取最新的Ip的GEO信息
+
+* 解决方案
+在elasticsearch.yml的末尾添加配置```ingest.geoip.downloader.enabled: false```
+
+
+3. 浏览器打开地址```http://localhost:9200/```验证启动成功
+

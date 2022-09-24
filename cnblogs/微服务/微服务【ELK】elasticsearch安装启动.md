@@ -35,4 +35,8 @@ ElasticSearch启动需要很大的**磁盘空间**，我是装在系统盘的，
 ```ERROR: Failed to determine the health of the cluster. Cluster health is currently RED.```
 
 
+## ElasticSearch安装为Windows服务
 
+<!-- TODO -->
+
+[Windows服务](https://blog.csdn.net/lilian129/article/details/124477099)

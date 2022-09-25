@@ -137,6 +137,9 @@ change mode 修改用户权限
 * 底线命令模式（Last line mode）
 
 
+[退出命令](http://c.biancheng.net/view/615.html)
+
+
 
 文本编辑器
 

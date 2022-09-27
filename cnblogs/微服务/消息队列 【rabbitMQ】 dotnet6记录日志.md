@@ -1,4 +1,3 @@
-[RabbitMQ安装]()
 
 ## dotnet6向RabbitMQ发送日志
 

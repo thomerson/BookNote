@@ -38,7 +38,7 @@
 
 0. [微服务【ELK】入门](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/微服务【ELK】入门.md)
 
-1. [消息队列 【rabbitMQ】 安装](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/消息队列 【rabbitMQ】 安装.md)
+1. [消息队列【rabbitMQ】安装](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/消息队列【rabbitMQ】安装.md)
 
 
 2. [微服务【ELK】elasticsearch安装启动](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/微服务【ELK】elasticsearch安装启动.md)
@@ -49,5 +49,5 @@
 
 5. [微服务【ELK】Kibana安装启动](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/微服务【ELK】Kibana安装启动.md)
 
-6. [消息队列 【rabbitMQ】 dotnet6记录日志](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/消息队列 【rabbitMQ】 dotnet6记录日志.md)
+6. [消息队列【rabbitMQ】dotnet6记录日志](https://github.com/thomerson/BookNote/blob/master/cnblogs/微服务/消息队列【rabbitMQ】dotnet6记录日志.md)
 

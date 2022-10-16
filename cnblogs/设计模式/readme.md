@@ -12,7 +12,7 @@ GOF/Gang of Four/四位作者
 * 创建型模式```Creational Patterns```
     * 工厂方法模式```Factory Pattern```
     * 抽象工厂模式
-    * 单例模式```Singleton Pattern```
+    * [单例模式```Singleton Pattern```](https://www.cnblogs.com/thomerson/p/16795927.html)
     * 建造者模式
     * 原型模式
 

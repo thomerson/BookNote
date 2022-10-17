@@ -43,3 +43,14 @@ GOF/Gang of Four/四位作者
 
 1. 开闭原则```Open Close Principle```
 
+2. 里氏代换原则```Liskov Substitution Principle```
+
+3. 依赖倒转原则```Dependence Inversion Principle```
+    * 高层模块不应该依赖低层模块，两者都应该依赖抽象
+    * 抽象不应该依赖于实现，实现应该依赖于抽象
+
+4. 接口隔离原则```Interface Segregation Principle```
+
+5. 迪米特法则，又称最少知道原则```Demeter Principle```
+
+6. 合成复用原则```Composite Reuse Principle```

@@ -2,6 +2,8 @@
 
 关机之后重新启动虚拟机发现docker命令不起作用，原因是因为没有**启动docker服务**，需要用```service docker start```启动docker服务
 
+没有权限启动service的话需要使用```su```切换到root用户在执行
+
 ## 单个服务部署
 
 1. visual studio 发布

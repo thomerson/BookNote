@@ -43,17 +43,26 @@
 
 相当于是一个 root 文件系统
 
+**模板**
+
 * 容器/Container⭐
+
+**独立运行的应用**
 
 镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的类和实例一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。
 
 * 仓库/Repository⭐
-一个代码控制中心，用来保存镜像
+一个代码控制中心，用来**保存镜像**
 
 * Docker 客户端/Client
+
+**操作docker host**
+
 Docker 客户端通过命令行或者其他工具使用 Docker SDK 与 Docker 的守护进程通信。
 
 * Docker 主机/Host
+
+**管理镜像和容器**
 
 一个物理或者虚拟的机器用于执行 Docker 守护进程和容器
 
@@ -87,3 +96,17 @@ container registry
 
 一次性运行多个微服务
 
+
+## 安装
+
+centOS安装命令
+
+```shell
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+
+也可以使用国内 daocloud 一键安装命令：
+
+```shell
+curl -sSL https://get.daocloud.io/docker | sh
+```

@@ -103,6 +103,16 @@ container registry
 
 一次性运行多个微服务
 
+* 缺点
+    1. 只能在当前主机上使用，**不能跨主机操作**
+
+
+## Docker Swarm
+
+**Docker 集群**
+
+
+
 
 ## 安装
 

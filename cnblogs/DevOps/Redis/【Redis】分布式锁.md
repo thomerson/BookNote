@@ -11,7 +11,7 @@
 
 ## redLock
 
-** Redis Distributed Lock**
+**Redis Distributed Lock**
 
 这个算法实现了多redis实例的情况
 

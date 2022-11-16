@@ -24,3 +24,19 @@ git reset --soft head~1  --后面的数字表示撤销最近的几次提交
 
 ```--hard``` **删除工作空间改动代码**，撤销commit，撤销git add
 
+## git ignore
+
+已经在git记录中的文件，添加整个的```git.ignore```来忽略文件例如bin和obj路径下的编译文件
+
+
+修改后没有立即生效，需要清理cache
+
+```shell
+git rm -r --cached .
+
+git add .
+
+```
+
+然后commit就OK了
+

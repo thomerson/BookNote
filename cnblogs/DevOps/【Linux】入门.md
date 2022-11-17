@@ -262,8 +262,13 @@ copy,复制文件或目录
 move,移动文件与目录，或修改名称
 
 
+* tar
 
+tape archive 用于备份文件
 
+解压文件
 
-
+```shell
+# tar -xzvf test.tar.gz
+```
 

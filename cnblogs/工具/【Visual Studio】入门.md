@@ -1,6 +1,6 @@
 ## 快捷输入
 
-* Prop/Propful
+* ```Prop```/```Propful```
 
   class中输入```prop```两次tab，得到快捷输入
 
@@ -18,3 +18,9 @@ public int MyProperty
     set { myVar = value; }
 }
 ```
+
+
+* ```ctor```
+
+class中输入```ctor```两次tab，得到当前class的构造函数
+

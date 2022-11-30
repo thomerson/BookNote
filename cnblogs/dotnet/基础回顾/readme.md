@@ -26,4 +26,22 @@
 
 我们可以直接把C#源码编译为.exe或dll文件，但是此时编译出来的程序代码并不是CPU能直接执行的二进制代码，而是IL代码
 
-[ILSpy]()
+ 反编译工具```ILSpy```
+
+
+## .Net【基础回顾】系列
+
+* [.Net【基础回顾】万物皆对象](https://www.cnblogs.com/thomerson/p/11426951.html)
+* [.Net【基础回顾】值类型与引用类型](https://www.cnblogs.com/thomerson/p/11432594.html)
+* [.Net【基础回顾】关键字](https://www.cnblogs.com/thomerson/p/11483311.html)
+* [.Net【基础回顾】比较比较 Equals ReferenceEquals](https://www.cnblogs.com/thomerson/p/11494450.html)
+* [.Net【基础回顾】关键字补充default](https://www.cnblogs.com/thomerson/p/16205599.html)
+* [.Net【基础回顾】关键字补充yield](https://www.cnblogs.com/thomerson/p/16218591.html)
+* [.Net【基础回顾】String脚踏两条船](https://www.cnblogs.com/thomerson/p/11494461.html)
+* [.Net【基础回顾】函数](https://www.cnblogs.com/thomerson/p/11503629.html)
+* [.Net【基础回顾】深浅复制](https://www.cnblogs.com/thomerson/p/11494483.html)
+* [.Net【基础回顾】特性](https://www.cnblogs.com/thomerson/p/11503515.html)
+* [.Net【基础回顾】反射](https://www.cnblogs.com/thomerson/p/11503518.html)
+* [.Net【基础回顾】委托和事件](https://www.cnblogs.com/thomerson/p/11503521.html)
+* [.Net【基础回顾】锁 Monitor/lock](https://www.cnblogs.com/thomerson/p/16410964.html)
+* [.Net【基础回顾】并行编程Parallel](https://www.cnblogs.com/thomerson/p/16936903.html)

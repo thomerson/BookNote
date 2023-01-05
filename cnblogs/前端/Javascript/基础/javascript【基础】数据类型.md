@@ -181,3 +181,28 @@ alert("o instanceof Object:" + (o instanceof Object));//true
 
 * ```===```表示恒等（类型和值都要相等）
 
+```javascript
+"10"==10     //true
+true==1       //true
+false==0      //true
+true==2       //false
+var undefined;
+undefined == null; // true
+1 == true; // true
+2 == true; // false
+0 == false; // true
+0 == ''; // true
+NaN == NaN; // false
+[] == false; // true
+[] == ![]; // true ![]==false
+
+var foo = "11"+2-"1"; //111
+
+var foo = "11"+2+"1"; //1121 //体会加一个字符串'1' 和 减去一个字符串'1'的不同
+
+var a = new Object();
+a.value = 1;
+b = a;
+b.value = 2; 
+console.log(a.value) //2 //静态属性
+```

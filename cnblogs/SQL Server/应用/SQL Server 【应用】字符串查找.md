@@ -11,7 +11,21 @@ CHARINDEX ( expressionToFind , expressionToSearch [ , start_location ] )
 
 --start_location：开始查找的位置，为空时默认从第一位开始查找。
 
+select charindex('test','this Test is Test') --6
+
+--增加开始位置
+select charindex('test','this Test is Test',7) --14
+
+--大小写敏感
+select charindex('test','this Test is Test'COLLATE Latin1_General_CS_AS) --0
+
+--大小写不敏感
+select charindex('Test','this Test is Test'COLLATE Latin1_General_CI_AS) --6
+
+
 ```
+
+
 
 
 ## PATINDEX

@@ -42,3 +42,31 @@
 * ```map``` 返回值是一个数组
 
 * ```filter```
+
+6. 函数
+
+* 函数参数默认值
+
+    ```javascript
+    function foo(age = 25,){ 
+        // ...
+    }
+    ```
+* Arrow箭头函数
+
+7. 延展操作符
+
+    ```javascript
+    let a = [...'hello world']; 
+    console.log(a);// ["h", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d"]
+    ```
+
+8. 对象属性简写
+
+    ```javascript
+    const name='小豪',
+    const obj = { name };
+    ```
+9. ```Promise```
+
+10. ```class```

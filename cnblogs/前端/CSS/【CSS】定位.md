@@ -1,10 +1,10 @@
 ## 定位
 
-* relative
+* ```relative```/相对定位
 
-* absolute
+* ```absolute```/绝对定位
 
-* fixed
+* ```fixed```/固定定位
 
 ## 相对定位
 

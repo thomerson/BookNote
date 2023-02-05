@@ -89,4 +89,3 @@ console.log(p3[0]);      // 'a'
 +function() {}() // +运算 NaN
 
 ```
-

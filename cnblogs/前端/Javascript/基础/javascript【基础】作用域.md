@@ -57,9 +57,7 @@ function f(){
 
 ## var和let的区别
 
-* var声明的变量会挂载在window上，
-
-* let和const声明的变量不会
+* var声明的变量会挂载在window上，let和const声明的变量不会
 
 ```javascript
 var a = 100;

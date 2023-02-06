@@ -85,3 +85,11 @@ var app = new Vue({
 防抖动是将多次执行变为**最后一次执行**
 
 节流是将多次执行变成**每隔一段时间执行**
+
+
+## Lodash实现
+
+[vue中使用Lodash实现debounce和throttle]()
+
+
+

@@ -12,10 +12,6 @@
 2. ```Promise.any```
     <br>收一个Promise可迭代对象，只要其中的一个 promise 成功，就返回那个已经成功的 promise 。如果可迭代对象中没有一个 promise 成功（即所有的 promises 都失败/拒绝），就返回一个失败的 promise
 
-    ```javascript
-    const str = 'hello world';
-    str.replaceAll('l', ''); // "heo word"
-    ```
 3. WeakRefs
 
 

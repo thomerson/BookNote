@@ -10,6 +10,8 @@ GOF/Gang of Four/四位作者
 ## 分类
 
 * 创建型模式```Creational Patterns```
+    > 在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。
+
     * 工厂方法模式```Factory Pattern```
     * 抽象工厂模式
     * [单例模式```Singleton Pattern```](https://www.cnblogs.com/thomerson/p/16795927.html)
@@ -17,6 +19,8 @@ GOF/Gang of Four/四位作者
     * 原型模式
 
 * 结构型模式```Structural Patterns```
+    > 关注类和对象的组合
+    
     * 适配器模式
     * 装饰器模式
     * 代理模式
@@ -26,6 +30,8 @@ GOF/Gang of Four/四位作者
     * 享元模式
     
 * 行为型模式
+    > 关注对象之间的通信
+
     * 策略模式
     * 模板方法模式
     * 观察者模式

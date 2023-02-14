@@ -30,11 +30,13 @@ import debounce from 'lodash.debounce'
     
 ```
 
+
+
 ```javascript
     handleInput(val) {
       console.log(val)
     }
-
+  // 2. 在created中使用debounce
   created() {
 　　 this.handleInput = debounce(this.handleInput, 200) // 搜索框防抖
   }

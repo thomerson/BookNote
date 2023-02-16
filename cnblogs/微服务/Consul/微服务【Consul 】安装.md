@@ -10,12 +10,11 @@
 4. 打开```http://localhost:8500/```
 
 
-http://t.zoukankan.com/SCscHero-p-SCscHero.html
+
 
 ## Linux下安装
 
-https://blog.csdn.net/a312586670/article/details/105337943/
+<!-- TODO -->
 
 
 
-https://www.cnblogs.com/xhznl/p/13091750.html

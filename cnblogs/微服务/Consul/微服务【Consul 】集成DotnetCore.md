@@ -4,6 +4,14 @@
 
 ## 集成DotnetCore
 
+* [服务注册](#服务注册)
+
+    * [服务启动时自动注册Consul](#服务启动时自动注册consul)
+
+* [服务发现](#服务发现)
+
+### 服务注册
+
 1. Nuget安装包
 
 ```install-package Consul```
@@ -126,7 +134,7 @@ namespace Demo.ConsulCenter.Controller
 [源码](https://github.com/thomerson/Demo/tree/main/DotnetCore/Demo.Consul)
 
 
-## 服务启动时自动注册Consul
+#### 服务启动时自动注册Consul
 
 通过实现```IHostedService```添加consul注册
 
@@ -195,5 +203,123 @@ namespace Demo.ConsulCenter.Registry
 ```c#
 services.AddHostedService<ServiceRegistryIHostedService>();
 ```
+
+### 服务发现
+
+1. Nuget安装包
+
+```install-package Consul```
+
+可以参考```api-docs```
+
+
+2. 添加服务发现class
+
+```c#
+using Consul;
+using Demo.ConsulDiscovery.Discovery.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Threading.Tasks;
+
+namespace Demo.ConsulDiscovery.Discovery
+{
+    public class ServiceDiscovery
+    {
+        public List<ServiceNode> Discovery(string serviceName)
+        {
+            CatalogService[] queryResult = RemoteDiscovery(serviceName);
+            var list = new List<ServiceNode>();
+
+            foreach (var service in queryResult)
+            {
+                list.Add(new ServiceNode()
+                {
+                    Url = service.Address + ":" + service.ServicePort
+                });
+            }
+            return list;
+        }
+
+        private CatalogService[] RemoteDiscovery(string serviceName)
+        {
+            // 1. 建立Consul连接
+            var consulClient = new ConsulClient(c =>
+            {
+                //consul地址
+                c.Address = new Uri("http://localhost:8500");
+            });
+
+            // 2. consul根据名称查询服务
+            var queryResult = consulClient.Catalog.Service(serviceName).Result;
+
+            // 3. 判断请求是否失败
+            if (!queryResult.StatusCode.Equals(HttpStatusCode.OK))
+            {
+                throw new Exception($"consul连接失败:{queryResult.StatusCode}");
+            }
+
+            return queryResult.Response;
+
+        }
+    }
+
+    public class ServiceNode
+    {
+        public string Url { get; set; }
+    }
+}
+
+
+```
+
+3. 添加```ServiceDiscovery```单例
+
+
+```c#
+// 添加服务发现
+services.AddSingleton<ServiceDiscovery>();
+
+```
+
+
+4. 请求调用
+
+```c#
+namespace Demo.ConsulDiscovery.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AggregateController : ControllerBase
+    {
+        private readonly ServiceDiscovery ServiceDiscovery;
+        public AggregateController(ServiceDiscovery serviceDiscovery)
+        {
+            ServiceDiscovery = serviceDiscovery;
+        }
+        [HttpGet]
+        public JsonResult GetAggre()
+        {
+            var nodes = ServiceDiscovery.Discovery("ProductService"); // 集群会有多个
+
+            // 建立连接
+            var productChannel = GrpcChannel.ForAddress(nodes[0].Url);
+
+            // 客户端创建
+            //var client = new IProductService.IProductServiceClient(productChannel);
+
+            // 参考gRPCdemo处理
+
+            return new JsonResult("OK");
+
+        }
+    }
+}
+
+```
+
+这里拿到注册服务的地址之后可以使用gRPC调用各个服务
 
 

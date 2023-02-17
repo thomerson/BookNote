@@ -61,29 +61,39 @@
 
   全局配置，所有路由共用的配置
 
-* ```BaseUrl```
+  * ```BaseUrl```
 
-  网关对外暴露的地址
+    网关对外暴露的地址
 
-* ```ServiceDiscoveryProvider```
+  * [QoSOptions](#qosoptions)
 
-  服务发现的相关配置
+    QoS配置
 
-  * ```Scheme```
+  * ```Aggregates```
+
+    路由聚合
+
+  * ```ServiceDiscoveryProvider```
+
+    服务发现的相关配置
+
+    * ```Scheme```
     
-    Consul启动的主机
+      Consul启动的主机
 
-  * ```Host``` 
+    * ```Host``` 
 
-    Consul启动的主机
+      Consul启动的主机
 
-  * ```Port```
+    * ```Port```
     
-    端口
+      端口
 
-  * ```Type```
+    * ```Type```
 
-    Consul或者其他服务发现框架
+      Consul或者其他服务发现框架
+
+
 
 ### 路由配置
 
@@ -110,20 +120,15 @@
     
 ```
 
-* ```Aggregates```
 
-  路由聚合
 
-```json
-{
-    "Aggregates":""
-}
+*  ```LoadBalancerOptions```
 
-```
+  指定负载均衡算法
 
-* ```QoSOptions```
+### QoSOptions
 
-  Quality of Service/服务质量
+Quality of Service/服务质量
 
   指一个网络能够利用各种基础技术，为指定的网络通信提供更好的服务能力，是网络的一种安全机制， 是用来解决网络延迟和阻塞等问题的一种技术。
 
@@ -138,8 +143,3 @@
 
 ```
 不设置的话，Ocelot默认将所有下游请求的超时时间设置为90秒
-
-*  ```LoadBalancerOptions```
-
-  指定负载均衡算法
-

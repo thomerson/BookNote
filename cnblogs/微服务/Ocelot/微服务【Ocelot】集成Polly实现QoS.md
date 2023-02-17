@@ -1,14 +1,13 @@
-
 ## QoS
 
-Quality of Service/服务质量
+```Quality of Service```/服务质量
 
 
 ## Ocelot集成Qos
 
 1. 安装Package
 
-```
+```shell
 install-package Ocelot.Provider.Polly
 
 ```
@@ -32,7 +31,7 @@ builder.ConfigureAppConfiguration((hostingContext, config) =>
 builder.ConfigureServices(s =>
 {
     s.AddOcelot()
-    .AddPolly();
+    .AddPolly(); // Polly
 })
 ```
 

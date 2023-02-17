@@ -50,7 +50,42 @@
 
 ```
 
+
+
+
+
 ### 配置说明
+
+
+* ```GlobalConfiguration```
+
+  全局配置，所有路由共用的配置
+
+* ```BaseUrl```
+
+  网关对外暴露的地址
+
+* ```ServiceDiscoveryProvider```
+
+  服务发现的相关配置
+
+  * ```Scheme```
+    
+    Consul启动的主机
+
+  * ```Host``` 
+
+    Consul启动的主机
+
+  * ```Port```
+    
+    端口
+
+  * ```Type```
+
+    Consul或者其他服务发现框架
+
+### 路由配置
 
 * ```priority```
 
@@ -104,5 +139,7 @@
 ```
 不设置的话，Ocelot默认将所有下游请求的超时时间设置为90秒
 
+*  ```LoadBalancerOptions```
 
+  指定负载均衡算法
 

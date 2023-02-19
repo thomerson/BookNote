@@ -2,11 +2,11 @@
 
 1. 客户端提供证明，访问ids4服务器，获取token
 
-2. ids4验证客户端，通过返回token 
+2. ids4验证客户端的scope，通过返回token 
 
 3. 客户端使用token访问api
 
-4. api验证token，验证通过返回数据
+4. api验证token的SCOPE，验证通过返回数据
 
 ![客户端凭证模式](https://mmbiz.qpic.cn/mmbiz_png/qQ1zuvjsChRXvIdftekXlb879Ph6iaMITVUoKNUn3eQXADBTy3vLVKE6lHmYHglk28F3pricLdIp1VK65cDBcgeg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 

@@ -8,9 +8,31 @@
 
 4. api验证token，验证通过返回数据
 
+![客户端凭证模式](https://mmbiz.qpic.cn/mmbiz_png/qQ1zuvjsChRXvIdftekXlb879Ph6iaMITVUoKNUn3eQXADBTy3vLVKE6lHmYHglk28F3pricLdIp1VK65cDBcgeg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
+
 ## 实现
 
+* [IDS4](#identityserver)
+
+    提供认证的服务
+
+* [API](#api)
+
+    需要做认证的API接口
+
+* [Client](#client)
+
+    请求调用api的客户端
+
 ### IdentityServer
+
+0. 安装nuget包
+
+```PowerShell
+install-package IdentityServer4
+```
 
 1. 添加```Config.cs```，配置```client```和```scope```
 
@@ -81,7 +103,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 1. 安装包
 
-```
+```PowerShell
 Install-Package  IdentityServer4.AccessTokenValidation
 ```
 
@@ -164,7 +186,7 @@ public class IdentityController : ControllerBase
 
 1. 安装包
 
-```
+```PowerShell
 Install-Package IdentityModel
 ```
 

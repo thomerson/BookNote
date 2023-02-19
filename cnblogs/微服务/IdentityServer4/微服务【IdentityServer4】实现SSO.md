@@ -30,7 +30,7 @@ ASP.Net Core client 用户在访问网页时，没有授权的情况下自动跳
 
 1. 安装包
 
-```
+```powershell
 Install-Package IdentityServer4
 ```
 
@@ -152,7 +152,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 1. 安装包
 
-```
+```powershell
 Install-Package Microsoft.AspNetCore.Authentication.OpenIdConnect
 ```
 
@@ -259,15 +259,15 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 所以解决方法是
 
-*. 使用Https
+* 使用Https
 
-~现实是很多都是内网使用，不会用https的
+    ~现实是很多都是内网使用，不会用https的
 
-*. 设置浏览器
+* 设置浏览器
 
-~现实是用户才不会搭理你
+    ~现实是用户才不会搭理你
 
-*. 在MvcClient配置```SameSite = SameSiteMode.Unspecified;```
+* 在MvcClient配置```SameSite = SameSiteMode.Unspecified;```
 
 ```c#
 // 在ConfigureServices添加

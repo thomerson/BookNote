@@ -2,7 +2,7 @@
 
 1. 安装nuget包
 
-```shell
+```powershell
 install-package Ocelot
 ```
 
@@ -35,5 +35,3 @@ builder.ConfigureServices(s =>
 .Build()
 .Run();
 ```
-
-[源码]()

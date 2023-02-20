@@ -12,6 +12,8 @@
 
 ### 服务注册
 
+各个微服务的api，服务启动后自动注册到consul
+
 1. Nuget安装包
 
 ```install-package Consul```
@@ -205,6 +207,8 @@ services.AddHostedService<ServiceRegistryIHostedService>();
 ```
 
 ### 服务发现
+
+apiGateway网关通过服务发现找到对应的api调用
 
 1. Nuget安装包
 

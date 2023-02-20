@@ -21,8 +21,8 @@ builder.ConfigureAppConfiguration((hostingContext, config) =>
 
 builder.ConfigureServices(s =>
 {
-    s.AddOcelot() //AddOcelot
-    .AddPolly();
+    s.AddOcelot(); //AddOcelot
+    // .AddPolly();
 }).ConfigureLogging((hostingContext, logging) =>
 {
     Console.WriteLine(logging);

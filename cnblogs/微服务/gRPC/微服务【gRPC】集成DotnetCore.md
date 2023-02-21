@@ -3,9 +3,12 @@
 
 ### server
 
+visual studio可以通过选择gRPC项目快速生成gRPC服务
+
+
 1. 安装Nuget包
 
-```shell
+```powershell
 install-package Grpc.AspNetCore
 ```
 
@@ -96,16 +99,13 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 7. 使用cmd命令```dotnet run```启动服务
 
 
-8. 可以通过选择gRPC项目快速生成gRPC服务
-
-
 
 ### Client
 
 
 1. 安装Nuget包
 
-```shell
+```powershell
 install-package Grpc.Net.Client
 install-package Google.Protobuf
 install-package Grpc.Tools
@@ -175,7 +175,7 @@ using (var grpcChannel = GrpcChannel.ForAddress("https://localhost:44350/"))
 
 先安装nuget包
 
-```shell
+```powershell
 install-package Grpc.Net.ClientFactory
 ```
 

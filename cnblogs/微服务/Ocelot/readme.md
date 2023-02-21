@@ -19,6 +19,8 @@ APIGetway
 
 * [微服务【Ocelot】限流]()
 
+* [微服务【Ocelot】负载均衡]()
+
 * [微服务【Ocelot】集成Polly实现QoS]()
 
 * [微服务【Ocelot】集成Cache]

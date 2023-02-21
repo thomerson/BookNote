@@ -7,7 +7,7 @@
 
 1. 安装Package
 
-```shell
+```powershell
 install-package Ocelot.Provider.Polly
 
 ```

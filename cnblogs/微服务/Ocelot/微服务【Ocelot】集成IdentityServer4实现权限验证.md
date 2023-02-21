@@ -105,8 +105,12 @@ builder.ConfigureServices(s =>
 <!-- 
 疑问：
 https://www.cnblogs.com/cwsheng/p/13418974.html
+https://www.cnblogs.com/markjiang7m2/p/10932805.html
 Ocelot如何请求ids4的服务的，没有配置ids4的地址的地方
+
+Ocelot client请求ids4拿到这个client对应的resource列表，看serviceKey中有没有对应的resource
  -->
 
+
+<!-- TODO  源码调试有问题 -->
  [源码](https://github.com/thomerson/Demo/tree/main/dotnet6/DemoOcelot)
- 

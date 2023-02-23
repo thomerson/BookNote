@@ -152,3 +152,5 @@ namespace Demo.Rabbit.Consumer
     }
 }
 ```
+
+[源码](https://github.com/thomerson/Demo/tree/main/dotnet6/Demo.Rabbit)

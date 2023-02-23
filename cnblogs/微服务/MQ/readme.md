@@ -92,6 +92,8 @@
 
 * [消息队列【RabbitMQ】入门]()
 
+* [消息队列【RabbitMQ】消息模型]()
+
 * [消息队列【RabbitMQ】安装]()
 
 * [消息队列【RabbitMQ】dotnet6记录日志]()

@@ -97,3 +97,6 @@
 * [消息队列【RabbitMQ】dotnet6记录日志]()
     
 * [消息队列【RabbitMQ】Dotnet6示例]()
+
+<!-- TODO
+* [消息队列【RabbitMQ】dotnetCore MVC集成RabbitMQ]() -->

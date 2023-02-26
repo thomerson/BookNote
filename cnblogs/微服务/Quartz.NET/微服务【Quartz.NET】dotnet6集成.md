@@ -1,6 +1,7 @@
 ## dotnet6集成
 
 <!-- https://www.codenong.com/cs109311634/ -->
+<!-- https://zhuanlan.zhihu.com/p/346534081 -->
 
 1. 安装nuget包
 

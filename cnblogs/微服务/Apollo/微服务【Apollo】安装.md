@@ -67,6 +67,9 @@ java -Xms256m -Xmx256m -Dspring.datasource.url=jdbc:mysql://localhost:3306/Apoll
 java -Xms256m -Xmx256m -Dspring.datasource.url=jdbc:mysql://localhost:3306/ApolloPortalDB?characterEncoding=utf8 -Dspring.datasource.username=root -Dspring.datasource.password= -jar apollo-portal-2.1.0.jar
 ```
 
+<!-- TODO -->
+<!-- https://www.jianshu.com/p/54152265b958 -->
+
 4. 打开apollo/admin
 
 ### docker安装
@@ -76,3 +79,11 @@ java -Xms256m -Xmx256m -Dspring.datasource.url=jdbc:mysql://localhost:3306/Apoll
 
 <!-- https://blog.csdn.net/qq_42427109/article/details/120509409 -->
 <!-- https://zhuanlan.zhihu.com/p/372889924 -->
+
+<!-- https://www.cnblogs.com/warren6/p/16775442.html -->
+
+<!-- https://www.cnblogs.com/mingyueyy/p/15304212.html -->
+
+<!-- https://www.cnblogs.com/qdhxhz/p/13394182.html -->
+
+<!-- https://zhuanlan.zhihu.com/p/62191330 -->

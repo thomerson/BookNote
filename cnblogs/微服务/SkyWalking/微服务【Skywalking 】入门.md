@@ -43,3 +43,53 @@
     SkyWalking 前后端进行分离，该 UI 界面负责将用户的查询操作封装为 GraphQL 请求提交给 OAP 后端触发后续的查询操作，待拿到查询结果之后会在前端负责展示。
 
 
+### Skywalking无代码入侵原因
+
+原因
+
+**用了.NET Core框架里面的扩展**
+
+Properties下```launchSettings.json```的配置
+
+```ASPNETCORE_HOSTINGSTARTUPASSEMBLIES```
+
+全是大写看不清楚，驼峰显示aspnetCore_HostingStartupAssemblies
+
+表示在程序启动时引入```SkyAPM.Agent.AspNetCore```这个程序集
+
+
+这个也可以自定义去实现
+
+1. 新建一个Common类库
+
+2. 添加一个class
+
+```c#
+    /// <summary>
+    /// 必须实现IHostingStartup 接口
+    /// 必须标记HostingStartup特性
+    /// 发生在HostBuild时候，IOC容器初始化之前，无侵入式扩展
+    /// </summary>
+    public class CustomHostingStartup : IHostingStartup
+    {
+        public void Configure(IWebHostBuilder builder)
+        {
+            Console.WriteLine("自定义扩展执行...");
+            //拿到IWebHostBuilder,一切都可做
+        }
+    }
+```
+
+3. 修改```launchSettings.json```配置
+
+```json
+
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "SkyAPM.Agent.AspNetCore;Common", //skywalking必须配置  添加Common程序集
+        "SKYWALKING__SERVICENAME": "Ocelot.Web" // 必须配置，在skywalking做标识  
+      }
+```
+
+启动当前service就可以发现自定义扩展执行了
+

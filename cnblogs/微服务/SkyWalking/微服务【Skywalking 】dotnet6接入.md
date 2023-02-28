@@ -6,7 +6,7 @@
 install-package SkyAPM.Agent.AspNetCore
 ```
 
-2. 添加配置
+2. 添加skywalking配置
 
 * 在Properties下```launchSettings.json```增加一下配置
 
@@ -153,4 +153,6 @@ namespace Demo.SkywalkingAgent.Controllers
 例如在service1中调用service2的接口
 
 链路追踪会显示出对应的Service的耗时，还能看到当前服务的详情和打的日志
+
+[源码](https://github.com/thomerson/Demo/tree/main/dotnet6/Demo.Skywalking)
 

@@ -17,7 +17,7 @@
     * [微服务【Ocelot】集成Cache使用Redis]()
     * [微服务【Ocelot】集成Cache自定义]()
 * [服务治理]()
-* 内置了[负载均衡器]()、Service Fabric、Skywalking等的集成
+* 内置了[负载均衡器]()、Service Fabric、[Skywalking]()等的集成
 
 
 ### 集成

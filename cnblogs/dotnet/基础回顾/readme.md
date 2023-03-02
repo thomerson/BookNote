@@ -45,3 +45,20 @@
 * [.Net【基础回顾】委托和事件](https://www.cnblogs.com/thomerson/p/11503521.html)
 * [.Net【基础回顾】锁 Monitor/lock](https://www.cnblogs.com/thomerson/p/16410964.html)
 * [.Net【基础回顾】并行编程Parallel](https://www.cnblogs.com/thomerson/p/16936903.html)
+
+<!-- TODO -->
+
+* [.Net【基础回顾】泛型逆变协变和Linq]()
+
+* [.Net【基础回顾】索引器Indexer]()
+
+* [.Net【基础回顾】Array List Dictionary LookUp]()
+
+* [.Net【基础回顾】线程安全集合]()
+
+* [.Net【基础回顾】Socket通信]()
+
+```c#
+using System.Collections.Concurrent;
+```
+

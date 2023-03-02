@@ -1,130 +1,43 @@
-[微服务](https://img2020.cnblogs.com/blog/824291/202004/824291-20200406223103730-527609758.jpg)
+![微服务](https://img2020.cnblogs.com/blog/824291/202004/824291-20200406223103730-527609758.jpg)
 
-## 6大组件
-* 服务描述
-* 注册中心
-* 服务架构
+## 主要模块
+
+1. 服务注册与发现
+    * [Consul]()
+    * ZooKeeper
+    * etcd
+    * Eureka
+
+2. 网关
+
+    * [Ocelot]()
+
+3. RPC
+
+    * [gRPC]()
+
 * 服务监控
 * 服务跟踪
 * 服务治理
+    * 缓存，限流，熔断，链路追踪 
 
-### 服务监控
-
-Zabbix
-
-
-## 服务发现/注册
-
-* consul
-
-* zookeeper
-
-## 网关/API Gateway
-
-API网关是一个服务器，是系统的唯一入口。
-
-核心要点是，所有的客户端和消费端都通过统一的网关接入微服务，在网关层处理所有的非业务功能。
-
-还提供了一些更高级的功能，例如：身份验证、监控、负载均衡、缓存、多协议支持、限流、熔断等等。
-
-### 网关的设计要素
-
-* 限流：实现微服务访问流量计算，基于流量计算分析进行限流，可以定义多种限流规则。
-* 缓存：数据缓存。
-* 日志：日志记录。
-* 监控：记录请求响应数据，api耗时分析，性能监控。
-* 鉴权：权限身份认证。
-* 灰度：线上灰度部署，可以减小风险。
-* 路由：路由是API网关很核心的模块功能，此模块实现根据请求，锁定目标微服务并将请求进行转发。
-
-### Ocelot
-
-1. [微服务【Ocelot】入门]()
-2. [微服务【Ocelot】配置]()
-3. [微服务【Ocelot】请求聚合]()
-4. [微服务【Ocelot】集成Polly实现QoS]()
-5. [微服务【Ocelot】集成Cache]
-6. [微服务【Ocelot】集成Cache使用CacheManager]
-7. [微服务【Ocelot】集成Cache使用Redis]
-8. [微服务【Ocelot】集成Cache自定义]
-9. [微服务【Ocelot】集成IdentityServer4实现权限验证]
-10. [微服务【Ocelot】集成Consul]
-
-
-
-## 反向代理
-
-Nginx
-
-## 系统日志
-
-
-### ExceptionLess
-
-1. [微服务【Exceptionless】入门]
-
-### ElasticSearch
-
-1. [微服务【ElasticSearch】入门]
-2. [微服务【Kibana】入门]
-
-## 自动化集成
-
-Jenkins
-
-GitLab
-
-## 分布式监控系统
-
-* 链路追踪
-
-
-### Skywalking
-[微服务【Skywalking 】入门]()
-
-## 容器部署
-
-Docker
-
-### 弹性收缩
-
-K8S
-
-
-## 配置中心
-
-Apollo
-
-
-## 授权中心
-
-IdentityServer4
 
 
 ## 数据一致性
 
 CAP
 
+## EventBus
 
-## 服务治理
+事件总线
 
-Polly
+事件总线是对观察者（发布-订阅）模式的一种实现。它是一种集中式事件处理机制，允许不同的组件之间进行彼此通信而又不需要相互依赖，达到一种解耦的目的。
 
 
-## 服务间通信
-
-gRPC
-
-REST
+Event Bus 目的是消息解耦，不要让服务之间直接的链接。不同与SOA的服务总线，事件总线相对比较轻量，经常基于消息队列引擎进行解耦，目的是为了让服务之间的关联弱化，不直接进行关联。很多时候用的是相对稳定、可靠、企业级的RabbitMQ。
 
 
 
-
-
-
-
-
-https://www.cnblogs.com/xhznl/p/13071260.html
 
 https://www.cnblogs.com/xhznl/p/13091750.html
 
@@ -205,4 +118,25 @@ https://www.cnblogs.com/stulzq/category/1060023.html
 
     * 反向代理
 
-* 
+
+
+## 服务网格
+
+
+
+## Portainer
+
+
+## sqldependency
+
+## graphql
+
+## zabbix
+
+
+
+## vue.mixin
+
+## vue.slot
+
+

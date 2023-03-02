@@ -9,6 +9,10 @@
   是一个包含Jenkins Pipeline定义的文本文件，并被检入源代码控制
 
 
+## publish over ssh
+
+## Maven Integration plugin
+
 
 
 ## Role-based Authorization Strategy

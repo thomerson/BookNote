@@ -40,4 +40,23 @@
     
     zset的成员是唯一的,但分数(score)却可以重复。
 
-    
+## client和server
+
+* redis client
+
+
+* redis server
+
+
+## redis常用命令
+
+* ```SETNX```  只有在 key 不存在时设置 key 的值 ⭐
+
+## 事务
+
+
+## 管道
+
+## 分区
+
+

@@ -84,6 +84,9 @@
 
     * k8s
 
+* [高可用]()
+
+    * keepalived
     
 ## 其他相关
 
@@ -91,18 +94,18 @@
 
     * git
 
-    * Gitlab
-
     * svn
 
     * 代码规范
 
 
-* CI/CD
+* [CI/CD]()
 
-    * linux
+    * gitlab
 
     * Jenkins
+
+    * docker
 
 
 * 后端服务

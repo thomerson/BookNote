@@ -92,11 +92,22 @@
 
 * 代码管理
 
+    * nuget
+
     * git
 
     * svn
 
     * 代码规范
+
+
+* 文档管理
+
+    * vuePress
+
+    * vivi
+
+    * confluence
 
 
 * [CI/CD]()

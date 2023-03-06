@@ -97,6 +97,21 @@
 
 ```浏览器->linux->docker->容器(浏览器访问的端口号)->微服务(端口80) ```                            
 
+### docker三剑客
+
+* compose
+
+    定义和运行一个或多个容器(通常都是多个)运行和应用的工具。使用 compose 可以**简化多个容器镜像的构建以及容器的运行**。
+
+* machine
+
+    简化Docker 安装的命令行工具
+
+* swarm
+
+     Docker集群工具，很少用，一般用Kubernetes
+
+     把若干台 Docker 主机抽象为一个整体，并且通过一个入口统一管理这些 Docker 主机上的各种 Docker 资源
 
 ## Docker Compose
 
@@ -108,6 +123,13 @@
 
 * 缺点
     1. 只能在当前主机上使用，**不能跨主机操作**
+
+## docker machine
+
+简化Docker 安装的命令行工具
+
+在指定节点上安装Docker引擎，配置其为Docker主机；
+集中管理所有Docker主机
 
 
 ## Docker Swarm

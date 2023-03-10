@@ -5,7 +5,8 @@
 一个开源且文档友好的应用程序框架，提供了基于领域驱动设计(DDD)的体系结构模型
 
 支持.NET Framework和.NET Core
-
+[官网](https://www.abp.io/)
+[文档](https://docs.abp.io/en/abp/latest/)
 [Github](https://github.com/aspnetboilerplate)
 
 
@@ -149,6 +150,9 @@ Install-Package Volo.Abp.AspNetCore.Mvc
 * Unit Of Work/工作单元
 
     为了保证一次业务操作的数据完整性。
+
+
+
 
 
 

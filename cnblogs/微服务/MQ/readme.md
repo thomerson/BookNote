@@ -105,3 +105,26 @@
 
 <!-- TODO
 * [消息队列【RabbitMQ】dotnetCore MVC集成RabbitMQ]() -->
+
+
+<!-- https://www.cnblogs.com/smallroll/p/17181614.html -->
+
+多个消费者消费同一个队列的消息
+
+
+* 轮询
+
+	RabbitMQ默认将消息逐一顺序分配给各消费者，该消息分配机制称为轮询（Round-Robin）
+
+* 消息预取
+
+<!-- TODO
+https://www.cnblogs.com/youngdeng/p/12867844.html -->
+
+
+消费者一次接收一条消息，代码```channel.BasicQos(0, 1, false);```
+
+
+公平分发需要消费者开启手动应答，关闭自动应答
+关闭自动应答代码channel.BasicConsume("queue_test", false, consumer);
+消费者开启手动应答代码：channel.BasicAck(ea.DeliveryTag, false);

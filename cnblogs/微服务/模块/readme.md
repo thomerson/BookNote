@@ -78,6 +78,8 @@
 
     * Prometheus
 
+    * sqldependency
+
 
 * [反向代理]()
 
@@ -88,7 +90,12 @@
 
     * docker
 
+
+* [容器编排]
+
     * k8s
+
+    * Service Fabric
 
 * [高可用]()
 

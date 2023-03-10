@@ -21,66 +21,43 @@
 * 服务治理
     * 缓存，限流，熔断，链路追踪 
 
+## 高并发策略
+
+1. 应用级缓存方案（过期策略，回收策略，Lru算法）
+
+2. Http缓存方案
+
+3. 多级缓存方案OpenResty
+
+4. 连接池线程池方案
+
+5. 异步并发方案
+
+6. 扩容集群
+
+7. 队列（内存队列，分布式队列）
 
 
 ## 数据一致性
 
-CAP
+1. 分布式事务
 
-## EventBus
+## 高可用
 
-事件总线
+1. 负载均衡和反向代理
 
-事件总线是对观察者（发布-订阅）模式的一种实现。它是一种集中式事件处理机制，允许不同的组件之间进行彼此通信而又不需要相互依赖，达到一种解耦的目的。
+2. 隔离方案（集群隔离和机房隔离）
 
+3. 限流方案（功能限流，缓存限流，ip限流，接口限流，商品限流）
 
-Event Bus 目的是消息解耦，不要让服务之间直接的链接。不同与SOA的服务总线，事件总线相对比较轻量，经常基于消息队列引擎进行解耦，目的是为了让服务之间的关联弱化，不直接进行关联。很多时候用的是相对稳定、可靠、企业级的RabbitMQ。
+4. 降级
 
+5. 超时与重试机制
 
+6. 回滚机制
 
+7. 压测与预案
 
-https://www.cnblogs.com/xhznl/p/13091750.html
-
-https://www.cnblogs.com/xhznl/p/13259036.html
-https://www.cnblogs.com/xhznl/p/13154851.html
-
-
-https://blog.csdn.net/qq_45534015/article/details/115193096
-
-https://blog.51cto.com/u_15127590/3255103
-
-https://www.freesion.com/article/12891241191/
-
-
-http://www.identityserver.com.cn/Home/Detail/openidConnect
-
-https://github.com/IdentityServer/IdentityServer4/tree/main/samples/Quickstarts
-
-https://identityserver4.readthedocs.io/en/latest/quickstarts/2_interactive_aspnetcore.html#creating-an-mvc-client
-
-
-https://www.cnblogs.com/stulzq/p/8119928.html
-
-https://cloud.tencent.com/developer/article/1696517
-
-
-https://www.cnblogs.com/linianhui/p/oidc-in-action-sso.html
-
-https://img2020.cnblogs.com/blog/824291/202004/824291-20200406223103730-527609758.jpg
-
-
-https://zhaobingwang.blog.csdn.net/article/details/103824965
-
-
-http://www.identityserver.com.cn/
-
-https://www.cnblogs.com/qtiger/p/14889151.html
-
-https://www.jb51.net/article/183505.htm
-
-https://www.cnblogs.com/fengchao1000/category/1327628.html
-
-https://www.cnblogs.com/stulzq/category/1060023.html
 
 ## 高并发和高可用
 
@@ -123,20 +100,37 @@ https://www.cnblogs.com/stulzq/category/1060023.html
 ## 服务网格
 
 
-
-## Portainer
-
-
 ## sqldependency
 
-## graphql
+<!-- 
+TODO
 
-## zabbix
+http://www.identityserver.com.cn/Home/Detail/openidConnect
+
+https://github.com/IdentityServer/IdentityServer4/tree/main/samples/Quickstarts
+
+https://identityserver4.readthedocs.io/en/latest/quickstarts/2_interactive_aspnetcore.html#creating-an-mvc-client
 
 
+https://www.cnblogs.com/stulzq/p/8119928.html
 
-## vue.mixin
-
-## vue.slot
+https://cloud.tencent.com/developer/article/1696517
 
 
+https://www.cnblogs.com/linianhui/p/oidc-in-action-sso.html
+
+https://img2020.cnblogs.com/blog/824291/202004/824291-20200406223103730-527609758.jpg
+
+
+https://zhaobingwang.blog.csdn.net/article/details/103824965
+
+
+http://www.identityserver.com.cn/
+
+https://www.cnblogs.com/qtiger/p/14889151.html
+
+https://www.jb51.net/article/183505.htm
+
+https://www.cnblogs.com/fengchao1000/category/1327628.html
+
+https://www.cnblogs.com/stulzq/category/1060023.html -->

@@ -129,3 +129,26 @@ Install-Package Volo.Abp.AspNetCore.Mvc
 
 2. 创建ABP模块 
 
+
+
+<!-- https://www.cnblogs.com/xhznl/p/13259036.html -->
+
+
+## 关键
+
+* DDD
+
+* 仓储
+
+    仓储用于操作领域对象（实际就是操作数据库），通常会为每个聚合根或不同的实体创建对应的仓储。ABP也提供了通用的泛型仓储：```IRepository<TEntity, TKey>```，内置了增删改查基本功能，直接注入就可以使用
+
+* 多租户/```multi-tenancy technology```
+
+    多租户是一种软件架构技术，这种架构可以让多个租户共用相同的系统，并且可以确保各租户间数据的隔离性。
+
+* Unit Of Work/工作单元
+
+    为了保证一次业务操作的数据完整性。
+
+
+

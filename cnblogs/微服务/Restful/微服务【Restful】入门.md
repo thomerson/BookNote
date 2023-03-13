@@ -10,12 +10,12 @@
 
     URL 用来定位资源，跟要进行的操作区分开，这就意味这 URL 不该有任何动词
 
-推荐写法
+    推荐写法
 
-    /api/teams （对应团队列表）
-    /api/teams/123 （对应 ID 为 123 的团队）
-    /api/teams/123/members （对应 ID 为 123 的团队下的成员列表）
-    /api/teams/123/members/456 （对应 ID 为 123 的团队下 ID 未 456 的成员）
+        /api/teams （对应团队列表）
+        /api/teams/123 （对应 ID 为 123 的团队）
+        /api/teams/123/members （对应 ID 为 123 的团队下的成员列表）
+        /api/teams/123/members/456 （对应 ID 为 123 的团队下 ID 未 456 的成员）
 
 2. 请求的 METHOD 表示对这个资源进行的操作；
 
@@ -39,17 +39,17 @@
 
 3. 分页过滤排序
 
-以 offset 和 limit 参数来进行分页
+    以 offset 和 limit 参数来进行分页
 
-    GET /api/users?offset=0&limit=20
+        GET /api/users?offset=0&limit=20
 
-支持提供关键词进行搜索，以及排序
+    支持提供关键词进行搜索，以及排序
 
-    GET /api/users?keyword=john&sort=age
+        GET /api/users?keyword=john&sort=age
 
-支持根据字段进行过滤
+    支持根据字段进行过滤
 
-    GET /api/users?gender=male
+        GET /api/users?gender=male
 
 ### URL和URI
 

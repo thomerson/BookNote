@@ -51,3 +51,16 @@
 
     GET /api/users?gender=male
 
+### URL和URI
+
+* URL
+
+    ```Uniform Resource Locator```/统一资源定位符
+
+    互联网上标准资源的地址
+
+* URI
+
+    ```Universal Resource Identifier```/统一资源标志符
+
+    用来标示抽象或物理资源

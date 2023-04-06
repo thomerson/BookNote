@@ -60,3 +60,14 @@ GOF/Gang of Four/四位作者
 5. 迪米特法则，又称最少知道原则```Demeter Principle```
 
 6. 合成复用原则```Composite Reuse Principle```
+
+
+## 一些相似的设计模式
+
+1. 状态模式和策略模式
+
+    * 策略模式是让用户指定更换的策略算法
+    
+    * 状态模式是状态在满足一定条件下的自动更换，用户无法指定状态，最多只能设置初始状态。 
+
+    <!-- https://www.runoob.com/w3cnote/state-vs-strategy.html -->

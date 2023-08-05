@@ -45,3 +45,44 @@ obj.inc(); // count: 1
 obj.inc(); // count: 2
 
 ```
+
+
+经典闭包笔试题
+
+```js
+function func(n,o){
+    console.log(n,o);
+    return{
+        func:function(m){
+            return func(m,n);
+        }
+    };
+}
+var a = func(0);
+a.func(1);
+a.func(2);
+a.func(3);
+
+var b = func(0).func(1).func(2).func(3);
+
+var c = func(0).func(1);
+c.func(2);
+c.func(3);
+
+```
+
+输出结果
+
+```js
+var a = func(0);//0 undefined
+a.func(1);//1 0 
+a.func(2);//2 0 
+a.func(3);//3 0
+
+var b = func(0).func(1).func(2).func(3);//0 undefined  , 1 0 , 2 1 , 3 2
+
+var c = func(0).func(1);//0 undefined;1 0
+c.func(2);//2 1
+c.func(3);//3 1
+```
+

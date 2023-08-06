@@ -23,9 +23,19 @@
 
     对应数据库中的表
 
+    * series 数据序列
+
 3. points
 
     对应表中的一行数据
+
+    * time 时间戳
+
+    * field 数据
+
+    * tags 标签
+ 
+
 
 4. bucket
 
@@ -35,6 +45,23 @@
 ### 保存策略
 
 InfluxDB本身不提供数据的删除操作，因此用来控制数据量的方式就是定义数据保留策略
+
+```powershell
+show retention policies on db_name
+
+--------------------------output---------------------------
+name    duration    shardGroupDuration    replicaN    default
+default    0        168h0m0s        1        true
+
+```
+
+* duration--持续时间，0代表无限制，如duration 1h，即只保留一小时内的数据
+
+* shardGroupDuration时间，检测的时间窗口，默认为7d
+
+* replicaN--全称是REPLICATION，副本个数
+
+
 
 ### TICK
 

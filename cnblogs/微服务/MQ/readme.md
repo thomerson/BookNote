@@ -1,4 +1,4 @@
-## MQ
+ ## MQ
 
 ```Message Queue```/消息队列
 
@@ -103,6 +103,8 @@
     
 * [消息队列【RabbitMQ】Dotnet6示例]()
 
+* [消息队列【RabbitMQ】死信队列]()
+
 <!-- TODO
 * [消息队列【RabbitMQ】dotnetCore MVC集成RabbitMQ]() -->
 
@@ -128,3 +130,21 @@ https://www.cnblogs.com/youngdeng/p/12867844.html -->
 公平分发需要消费者开启手动应答，关闭自动应答
 关闭自动应答代码channel.BasicConsume("queue_test", false, consumer);
 消费者开启手动应答代码：channel.BasicAck(ea.DeliveryTag, false);
+
+
+### 数据丢失问题
+
+* 启用数据持久化
+
+	将Exchange、Queue、Message都设置了持久化
+
+* 手动确认消息
+
+	autoAck=False
+
+
+
+* 镜像队列
+
+* 消费端和服务端消息确认
+
